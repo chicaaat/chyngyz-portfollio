@@ -1,10 +1,8 @@
-
 import React from 'react';
 import styled from 'styled-components';
 
 const AboutMeContainer = styled.div`
   padding: 40px;
-  background: #f0f0f0;
   text-align: center;
 `;
 

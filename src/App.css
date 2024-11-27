@@ -11,26 +11,26 @@
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для навигации */
+  background-image: url('https://img.freepik.com/free-vector/realistic-luxury-background_23-2149354608.jpg');
   padding: 10px;
 }
 
 nav ul {
-  list-style-type: none; /* Убираем маркеры */
-  padding: 0; /* Убираем отступы */
+  list-style-type: none; 
+  padding: 0; 
   display: flex;
-  justify-content: center; /* Центрируем навигацию */
+  justify-content: center; 
 }
 
 nav li {
-  margin: 0 15px; /* Отступы между элементами */
+  margin: 0 15px;
 }
 
 nav a {
-  color: white; /* Цвет ссылок */
-  text-decoration: none; /* Убираем подчеркивание */
+  color: white; 
+  text-decoration: none; 
 }
 
 nav a:hover {
-  text-decoration: underline; /* Подчеркивание при наведении */
+  text-decoration: underline; 
 }

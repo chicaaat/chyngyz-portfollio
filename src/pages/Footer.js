@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Skills>Навыки: JavaScript, HTML, CSS, Python</Skills>
-      <p>Email: ваш_email@example.com</p>
+      <p>Email: akmetbekovc1@gmail.com</p>
     </FooterContainer>
   );
 };

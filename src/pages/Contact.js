@@ -13,49 +13,47 @@ const Title = styled.h1`
   color: #007acc;
 `;
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-`;
-
-const Input = styled.input`
+const ContactItem = styled.div`
   margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+
+  a {
+    color: #007acc;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 
-const TextArea = styled.textarea`
-  margin: 10px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-`;
-
-const SubmitButton = styled.button`
+const Footer = styled.footer`
+  margin-top: 20px;
   padding: 10px;
   background-color: #007acc;
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #005999;
-  }
+  text-align: center;
+  width: 100%;
 `;
 
 const Contact = () => {
   return (
     <Container>
       <Title>Связаться со мной</Title>
-      <Form>
-        <Input type="text" placeholder="Ваше имя" required />
-        <Input type="email" placeholder="Ваш email" required />
-        <TextArea placeholder="Ваше сообщение" rows="4" required />
-        <SubmitButton type="submit">Отправить</SubmitButton>
-      </Form>
+      <ContactItem>
+        📧 Email: <a href="https://mail.google.com/mail/u/0/">akmatbekovc1@gmail.com</a>
+      </ContactItem>
+      <ContactItem>
+        📸 Instagram: <a href="https://www.instagram.com/_akmatbek0vxx_/" target="_blank" rel="noopener noreferrer">_akmatbek0vxx_</a>
+      </ContactItem>
+      <ContactItem>
+        📱 Telegram: <a href="https://web.telegram.org/k/" target="_blank" rel="noopener noreferrer">t.me/chyngyzbro</a>
+      </ContactItem>
+      <ContactItem>
+        ☎️ Телефон: <a href="tel:+996502585208">+996502585208</a>
+      </ContactItem>
+      <Footer>© 2024 Акматбеков Чынгыз. Все права защищены.</Footer>
     </Container>
   );
 };

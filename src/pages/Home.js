@@ -55,6 +55,14 @@ const Email = styled.p`
   color: #ddd;
 `;
 
+const FooterContainer = styled.footer`
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+`;
+
+
 const Home = () => {
   return (
     <HomeContainer>
@@ -83,7 +91,10 @@ const Home = () => {
           </Skill>
         </SkillsContainer>
         <Email>Свяжитесь со мной: akmatbekovc1@gmail.com</Email>
+   
       </Footer>
+      
+      
     </HomeContainer>
   );
 };

@@ -1,10 +1,10 @@
-
 import React from 'react';
 import styled from 'styled-components';
 
 const Container = styled.div`
   padding: 20px;
   text-align: center;
+  background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1625200055_58-kartinkin-com-p-epichnii-fon-krasivie-foni-59.jpg');
 `;
 
 const Projects = () => {

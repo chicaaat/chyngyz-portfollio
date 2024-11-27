@@ -1,4 +1,3 @@
-// src/pages/AboutMe.js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -7,8 +6,9 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: yellow ;
+  background-image: url('https://ybis.ru/wp-content/uploads/2023/09/fon-dlia-avatarki-7.webp')
 `;
+
 
 const Title = styled.h1`
   color: #007acc;
@@ -17,7 +17,7 @@ const Title = styled.h1`
 const Description = styled.p`
   max-width: 600px;
   text-align: center;
-  color: #666;
+  color: white;
 `;
 
 const Image = styled.img`
@@ -37,8 +37,12 @@ const AboutMe = () => {
         
       <Image src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/d6/Superman_Man_of_Steel.jpg/411px-Superman_Man_of_Steel.jpg" alt="Супермен" />
       </Description>
+      
     </Container>
+    
+    
   );
 };
+
 
 export default AboutMe;
